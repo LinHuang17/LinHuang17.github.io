@@ -1,1 +1,285 @@
-hello world
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60320583-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-60320583-2');
+</script>
+
+<title>Lin Huang - Home</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript" src="js/hidebib.js"></script>
+
+</head>
+<body>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="section">
+  <h1>Lin Huang</h1>
+</div>
+<hr>
+
+<div class="section">
+  <table>
+    <tr valign="top"> <td style="width: 600px; vertical-align: top;">
+      I'm currently a Ph.D. student at <a href = "http://www.buffalo.edu/">University at Buffalo</a>, advised by  <a href = "https://cse.buffalo.edu/~jsyuan/">Prof. Junsong Yuan</a>. I received my M.S. from the <a href = "https://www.usc.edu/">University of Southern California</a>. Prior to that, I was an undergrad at <a href = "https://en.lzu.edu.cn/">Lanzhou University</a>. 
+      <p><br></p>
+      I'm broadly interested in computer vision and machine learning. My current research focuses on pose estimation, 3D reconstruction, human behavior analysis, and human-computer interaction.
+      <p><br></p>
+      <p style="text-align:center">
+        <a href="mailto:lhuang27@buffalo.edu">E-mail</a> &nbsp/&nbsp
+        <a href="./file/lin_cv.pdf">CV</a> &nbsp/&nbsp
+        <a href="https://scholar.google.com/citations?user=Kwhor_EAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+        <a href="https://github.com/LinHuang17">GitHub</a>
+      </p>
+      <pre xml:space="preserve" id="email" style="font-size: 12px">
+        
+      </pre>
+      <script xml:space="preserve" language="JavaScript">
+  hideblock('email');
+  </script>
+  </td>
+  
+  <td width="400"><img src="./fig/Lin.jpg" alt="My picture" height=240 align="right"/></td>
+</tr>
+</table>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->\
+<div class="section">
+<h2> Research Projects </h2><br><div class="year_heading"><br>2020<hr width=800 align="left"></div>
+<!--------------------------------------------------------------------------->
+<div class="paper" id="mm20hotnet">
+<img class="paper" src="./fig/hot/combine.gif" height=125 />
+<p> <strong style="color:red">[New]</strong> <b id="papertitle">HOT-Net: Non-Autoregressive Transformer for 3D Hand-Object Pose Estimation</b> <br/> 
+<strong>Lin Huang</strong>, Jianchao Tan, Jingjing Meng, Ji Liu, Junsong Yuan <br/> 
+ACM MM, 2020 <br/> 
+<p><br></p>
+<a href="https://dl.acm.org/doi/abs/10.1145/3394171.3413775">PDF</a> &nbsp/&nbsp
+<!-- <a href="">Project Page</a> &nbsp/&nbsp -->
+<!-- <a href="">Code</a> &nbsp/&nbsp -->
+<a href="javascript:toggleblock('mm20hotnetAbs')">Abstract</a> &nbsp/&nbsp 
+<a href="https://dl.acm.org/doi/abs/10.1145/3394171.3413775">Presentation</a> &nbsp/&nbsp
+<!-- <a href="">Video</a> &nbsp/&nbsp  -->
+<a href="javascript:toggleblock('mm20hotnetBib')">Bibtex</a>
+<div class="papermeta" id="mm20hotnetMeta">
+<em id="mm20hotnetAbs">
+  As we use our hands frequently in daily activities, the analysis of hand-object interactions plays a critical role to many 
+  multimedia understanding and interaction applications. Different from conventional 3D hand-only and object-only pose estimation, 
+  estimating 3D hand-object pose is more challenging due to the mutual occlusions between hand and object, as well as the physical 
+  constraints between them. To overcome these issues, we propose to fully utilize the structural correlations among hand joints and 
+  object corners in order to obtain more reliable poses. Our work is inspired by structured output learning models in sequence 
+  transduction field like Transformer encoder-decoder framework. Besides modeling inherent dependencies from extracted 2D hand-object 
+  pose, our proposed Hand-Object Transformer Network (HOT-Net) also captures the structural correlations among 3D hand joints and 
+  object corners. Similar to Transformer’s autoregressive decoder, by considering structured output patterns, this helps better 
+  constrain the output space and leads to more robust pose estimation. However, different from Transformer’s sequential modeling 
+  mechanism, HOTNet adopts a novel non-autoregressive decoding strategy for 3D hand-object pose estimation. Specifically, our model
+  removes the Transformer’s dependence on previously generated results and explicitly feeds a reference 3D hand-object pose into the 
+  decoding process to provide equivalent target pose patterns for parallely localizing each 3D keypoint. To further improve physical 
+  validity of estimated hand pose, besides anatomical constraints, we propose a cooperative pose constraint, aiming to enable the 
+  hand pose to cooperate with hand shape, to generate hand mesh. We demonstrate real-time speed and state-of-the-art performance on
+  benchmark hand-object datasets for both 3D hand and object poses.</em>
+<pre xml:space="preserve" id="mm20hotnetBib">
+@inproceedings{huang2020hot,
+  title={HOT-Net: Non-Autoregressive Transformer for 3D Hand-Object Pose Estimation},
+  author={Huang, Lin and Tan, Jianchao and Meng, Jingjing and Liu, Ji and Yuan, Junsong},
+  booktitle={Proceedings of the 28th ACM International Conference on Multimedia},
+  pages={3136--3145},
+  year={2020}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('mm20hotnetAbs');
+hideblock('mm20hotnetBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="huang2020hand">
+<img class="paper" src="./fig/hand-tfer/hand-tfer.png" height=100 />
+<p><b id="papertitle">Hand-Transformer: Non-Autoregressive Structured Modeling for 3D Hand Pose Estimation</b> <br/> 
+<strong>Lin Huang</strong>, Jianchao Tan, Ji Liu, Junsong Yuan <br/> 
+ECCV, 2020 <br/> 
+<p><br></p>
+<a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700018.pdf">PDF</a> &nbsp/&nbsp
+<!-- <a href="">Project Page</a> &nbsp/&nbsp -->
+<!-- <a href="">Code</a> &nbsp/&nbsp -->
+<a href="javascript:toggleblock('huang2020handAbs')">Abstract</a> &nbsp/&nbsp 
+<!-- <a href="">Presentation</a> &nbsp/&nbsp -->
+<a href="https://link.springer.com/chapter/10.1007%2F978-3-030-58595-2_2">Video</a> &nbsp/&nbsp 
+<a href="javascript:toggleblock('huang2020handBib')">Bibtex</a>
+<div class="papermeta" id="huang2020handMeta">
+<em id="huang2020handAbs">3D hand pose estimation is still far from a well-solved problem mainly due to the highly nonlinear 
+  dynamics of hand pose and the difficulties of modeling its inherent structural dependencies. To address this issue, we 
+  connect this structured output learning problem with the structured modeling framework in sequence transduction field. Standard 
+  transduction models like Transformer adopt an autoregressive connection to capture dependencies from previously generated tokens
+   and further correlate this information with the input sequence in order to prioritize the set of relevant input tokens for 
+   current token generation. To borrow wisdom from this structured learning framework while avoiding the sequential modeling for 
+   hand pose, taking a 3D point set as input, we propose to leverage the Transformer architecture with a novel non-autoregressive 
+   structured decoding mechanism. Specifically, instead of using previously generated results, our decoder utilizes a reference 
+   hand pose to provide equivalent dependencies among hand joints for each output joint generation. By imposing the reference 
+   structural dependencies, we can correlate the information with the input 3D points through a multi-head attention mechanism, 
+   aiming to discover informative points from different perspectives, towards each hand joint localization. We demonstrate our 
+   model’s effectiveness over multiple challenging hand pose datasets, comparing with several state-of-the-art methods.</em>
+<pre xml:space="preserve" id="huang2020handBib">
+@inproceedings{huang2020hand,
+  title={Hand-Transformer: Non-Autoregressive Structured Modeling for 3D Hand Pose Estimation},
+  author={Huang, Lin and Tan, Jianchao and Liu, Ji and Yuan, Junsong},
+  booktitle={European Conference on Computer Vision},
+  pages={17--33},
+  year={2020},
+  organization={Springer}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('huang2020handAbs');
+hideblock('huang2020handBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="cai2020learning">
+  <img class="paper" src="./fig/motion_pred/pred_tfer_dict.png" />
+  <p><b id="papertitle">Learning Progressive Joint Propagation for Human Motion Prediction</b> <br/> 
+  Yujun Cai, <strong>Lin Huang</strong>, Yiwei Wang, Tat-Jen Cham, Jianfei Cai, Junsong Yuan, Jun Liu, Xu Yang, Yiheng Zhu, Xiaohui Shen, Ding Liu, Jing Liu, Nadia Magnenat Thalmann <br/> 
+  ECCV, 2020 <br/> 
+  <p><br></p>
+  <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520222.pdf">PDF</a> &nbsp/&nbsp
+  <!-- <a href="">Project Page</a> &nbsp/&nbsp -->
+  <!-- <a href="">Code</a> &nbsp/&nbsp -->
+  <a href="javascript:toggleblock('cai2020learningAbs')">Abstract</a> &nbsp/&nbsp 
+  <!-- <a href="">Presentation</a> &nbsp/&nbsp -->
+  <!-- <a href="">Video</a> &nbsp/&nbsp  -->
+  <a href="javascript:toggleblock('cai2020learningBib')">Bibtex</a>
+  <div class="papermeta" id="cai2020learningMeta">
+  <em id="cai2020learningAbs">  Despite the great progress in human motion prediction, it remains a challenging task due to the 
+    complicated structural dynamics of human behaviors. In this paper, we address this problem in three aspects. First, to 
+    capture the long-range spatial correlations and temporal dependencies, we apply a transformer-based architecture with the 
+    global attention mechanism. Specifically, we feed the network with the sequential joints encoded with the temporal 
+    information for spatial and temporal explorations. Second, to further exploit the inherent kinematic chains for better 3D 
+    structures, we apply a progressive-decoding strategy, which performs in a central-to-peripheral extension according to the 
+    structural connectivity. Last, in order to incorporate a general motion space for high-quality prediction, we build a 
+    memory-based dictionary, which aims to preserve the global motion patterns in training data to guide the predictions. We 
+    evaluate the proposed method on two challenging benchmark datasets (Human3.6M and CMU-Mocap). Experimental results show 
+    our superior performance compared with the state-of-the-art approaches.</em>
+  <pre xml:space="preserve" id="cai2020learningBib">
+@inproceedings{cai2020learning,
+  title={Learning progressive joint propagation for human motion prediction},
+  author={Cai, Yujun and Huang, Lin and Wang, Yiwei and others},
+  booktitle={European Conference on Computer Vision},
+  pages={226--242},
+  year={2020},
+  organization={Springer}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('cai2020learningAbs');
+hideblock('cai2020learningBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="year_heading"><br>2019<hr width="800" align="left"></div>
+<!--------------------------------------------------------------------------->
+<div class="paper" id="mm20hotnet">
+  <img class="paper" src="./fig/hpn-demo/demo.gif" height=90 />
+  <p><b id="papertitle">Simple Demo for Hand PointNet-based Real-Time 3D Hand Pose Estimation</b> <br/> 
+  <strong>Lin Huang</strong>, Pranav Sankhe, Yiheng Li<br/> 
+  <p><br></p>
+  <!-- <a href="">PDF</a> &nbsp/&nbsp -->
+  <!-- <a href="">Project Page</a> &nbsp/&nbsp -->
+  <a href="https://github.com/LinHuang17/hand-pointnet-demo">Code</a>
+  <!-- <a href="">Abstract</a> -->
+  <!-- <a href="">Presentation</a> &nbsp/&nbsp -->
+  <!-- <a href="">Video</a> &nbsp/&nbsp  -->
+  <!-- <a href="">Bibtex</a> -->
+  <div class="papermeta" id="mm20hotnetMeta">
+  </div>
+  </div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="section">
+  <h2> Experiences</h2>
+  
+  <div class="paper" id="teaching">
+  <table width="100%" valign="top" border="0" cellspacing="0" cellpadding="20">
+    <tr>
+      <td  style="width: 700px; vertical-align: top">
+        </a><b id="papertitle3"></b>Research Intern: Y-tech Lab, Kwai Inc., Seattle, USA</b></a><br />
+        <heading>May. 2020 - Aug. 2020. Supervisor: Dr. Jianchao Tan and Dr. Ji Liu</heading>
+        <!-- </p> -->
+        <!-- <p><br/></p> -->
+        <!-- </a><b id="papertitle2"></b>Reviewer for Journals: </b></a><br /> -->
+        <!-- <heading>TIP</heading> -->
+        <!-- </p> -->
+        <!-- <p><br/></p> -->
+      </td>
+    </tr>
+  </table>
+</div>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="section">
+<h2> Services</h2>
+
+<div class="paper" id="teaching">
+<table width="100%" valign="top" border="0" cellspacing="0" cellpadding="20">
+  <tr>
+    <td  style="width: 700px; vertical-align: top">
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">
+      </a><b id="papertitle3"></b>Reviewer: CVPR, TIP</b></a><br />
+    </td>
+  </tr>
+</table>
+</div>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<div class="section">
+  <h2> Teaching</h2>
+  
+  <div class="paper" id="teaching">
+    <table width="100%" valign="top" border="0" cellspacing="0" cellpadding="20">
+      <tr>
+      <td  style="width: 700px; vertical-align: top">
+      </a><b id="papertitle3"></b>TA: Introduction to Pattern Recognition (CSE555)</b></a><br />
+      <heading>Fall 2020</heading>
+    </p>
+    <p><br/></p>
+    </a><b id="papertitle2"></b>TA: Data Intensive Computing (CSE587)</b></a><br />
+      <heading>Spring 2020</heading>
+      </p>
+      <p><br/></p>
+    </td>
+  </tr>
+</table>
+</div>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
+<!--------------------------------------------------------------------------->
+<p style="text-align:right;font-size:small;">
+</a><a href="https://shubhtuls.github.io/"><b id="papertitle3">Website Template</b> </a><br />
+
+</body>
+</html>
