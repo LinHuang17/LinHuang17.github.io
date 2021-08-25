@@ -28,7 +28,8 @@ thead, tr, th, td {
 body {
   position: relative;
   margin: 3em auto 2em auto;
-  width: 1024px;
+  /* width: 1024px; */
+  width: 970px;
   font-size: 16px;
 	line-height:20px;
 }
@@ -102,7 +103,7 @@ strong, b {
 }
 
 em, i {
-	font-style:italic;
+	font-style:inherit;
 }
 
 div.section {
@@ -151,7 +152,7 @@ img.paper {
 }
 
 span.blurb {
-  font-style:italic;
+  font-style:inherit;
   display:block;
   margin-top:0.75em;
   margin-bottom:0.5em;
