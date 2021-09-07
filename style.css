@@ -1,7 +1,7 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
 font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt,
-dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot,
+dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, c1,
 thead, tr, th, td {
   border: 0pt none;
   font-family: Georgia, serif;
@@ -62,6 +62,14 @@ a:hover
 	text-decoration: none;
 }
 
+/* created */
+c1 {
+  font-family: Georgia, serif;
+  font-weight: 500;
+  font-size: 17px;
+  /* font-weight:bold; */
+}
+
 h1 {
   font-family: Georgia, serif;
 	font-size: 30pt;
@@ -69,8 +77,9 @@ h1 {
 
 h2 {
   font-family: Georgia, serif;
-  font-size: 15pt;
-  font-weight: 700;
+  font-size: 17pt;
+  /* font-weight: 700; */
+  font-weight: 500;
 }
 
 h4 {
