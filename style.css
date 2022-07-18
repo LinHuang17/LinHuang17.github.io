@@ -1,10 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans+Narrow:400,700);
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
 font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt,
 dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, c1,
 thead, tr, th, td {
   border: 0pt none;
-  font-family: Georgia, serif;
+  /* font-family: Georgia, serif; */
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 100%;
   font-style: inherit;
   font-weight: inherit;
@@ -36,9 +39,9 @@ body {
 
 hr
 {
-		border: 0;
-		height: 1px;
-		background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
 }
 
 .static {
@@ -64,32 +67,33 @@ a:hover
 
 /* created */
 c1 {
-  font-family: Georgia, serif;
+  /* font-family: Georgia, serif; */
+  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 500;
   font-size: 17px;
   /* font-weight:bold; */
 }
 
 h1 {
-  font-family: Georgia, serif;
+  font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 30pt;
 }
 
 h2 {
-  font-family: Georgia, serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 17pt;
   /* font-weight: 700; */
   font-weight: 500;
 }
 
 h4 {
-  font-family: Georgia, serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 13pt;
   font-weight: 700;
 }
 
 h3 {
-  font-family: Georgia, serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -138,7 +142,7 @@ div.year_heading
 	color: #3B3B3B;
 	font-weight: 500;
 	font-size:20px;
-  font-family: Georgia, serif;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 div.papermeta {
@@ -168,13 +172,13 @@ span.blurb {
 }
 
 pre, code {
-  font-family: Georgia, serif;
+  font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 11px;
 	line-height: 14px;
 }
 
 div.papermeta pre {
-	font-family: Georgia, serif;
+	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 11px;
 	line-height: 14px;
 }
