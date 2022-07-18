@@ -75,7 +75,8 @@ c1 {
 }
 
 h1 {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Georgia, serif;
+  /* font-family: 'PT Sans Narrow', sans-serif; */
 	font-size: 30pt;
 }
 
