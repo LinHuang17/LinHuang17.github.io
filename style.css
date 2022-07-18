@@ -86,18 +86,6 @@ h2 {
   font-weight: 500;
 }
 
-/* h4 {
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 13pt;
-  font-weight: 700;
-}
-
-h3 {
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-} */
-
 ul {
   list-style: circle;
 }
@@ -136,14 +124,6 @@ div.paper {
   background: #fff;
   padding: 1em 1em 0em 1em;
 }
-
-/* div.year_heading
-{
-	color: #3B3B3B;
-	font-weight: 500;
-	font-size:20px;
-  font-family: 'PT Sans Narrow', sans-serif;
-} */
 
 div.papermeta {
   clear: both;
