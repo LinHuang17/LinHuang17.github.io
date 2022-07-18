@@ -67,8 +67,7 @@ a:hover
 
 /* created */
 c1 {
-  /* font-family: Georgia, serif; */
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 500;
   font-size: 17px;
   /* font-weight:bold; */
@@ -76,12 +75,11 @@ c1 {
 
 h1 {
   font-family: Georgia, serif;
-  /* font-family: 'PT Sans Narrow', sans-serif; */
 	font-size: 30pt;
 }
 
 h2 {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Georgia, serif;
   font-size: 17pt;
   /* font-weight: 700; */
   font-weight: 500;
