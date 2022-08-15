@@ -59,6 +59,45 @@
 <div class="section">
 <h2> Research Projects </h2><br>
 <!-- <div class="year_heading"><br>2021<hr width=800 align="left"></div> -->
+
+<!--------------------------------------------------------------------------->
+<div class="paper" id="huang2022ncf">
+<img class="paper" src="./fig/ncf/ncf.jpg" height=100 />
+<p><c1 id="papertitle">Neural Correspondence Field for Object Pose Estimation</c1> <br/> 
+Lin Huang, Tomas Hodan, Lingni Ma, Linguang Zhang, Luan Tran, Christopher Twigg, Po-Chen Wu, Junsong Yuan, Cem Keskin, Robert Wang <br/> 
+ECCV, 2022 <br/> 
+<p><br></p>
+<a href="https://arxiv.org/pdf/2208.00113.pdf">Paper</a> &nbsp|&nbsp
+<a href="https://github.com/LinHuang17/NCF-code">Code</a> &nbsp|&nbsp
+<a href="https://linhuang17.github.io/NCF/">Project Page</a> &nbsp|&nbsp
+<a href="javascript:toggleblock('huang2022ncfAbs')">Abstract</a> &nbsp|&nbsp 
+<!-- <a href="">Presentation</a> &nbsp/&nbsp -->
+<!-- <a href="">Video</a> &nbsp|&nbsp  -->
+<a href="javascript:toggleblock('huang2022ncfBib')">Bibtex</a>
+<div class="papermeta" id="huang2022ncfMeta">
+<em id="huang2022ncfAbs">We propose a method for estimating the 6DoF pose of a rigid object with an available 3D model from a single RGB image. 
+  Unlike classical correspondence-based methods which predict 3D object coordinates at pixels of the input image, the proposed method predicts 
+  3D object coordinates at 3D query points sampled in the camera frustum. The move from pixels to 3D points, which is inspired by recent PIFu-style 
+  methods for 3D reconstruction, enables reasoning about the whole object, including its (self-)occluded parts. For a 3D query point associated with 
+  a pixel-aligned image feature, we train a fully-connected neural network to predict: (i) the corresponding 3D object coordinates, and 
+  (ii) the signed distance to the object surface, with the first defined only for query points in the surface vicinity. We call the mapping realized 
+  by this network as Neural Correspondence Field. The object pose is then robustly estimated from the predicted 3D-3D correspondences by the Kabsch-RANSAC algorithm. 
+  The proposed method achieves state-of-the-art results on three BOP datasets and is shown superior especially in challenging cases with occlusion.</em>
+<pre xml:space="preserve" id="huang2022ncfBib">
+@article{huang2022ncf,
+  title={Neural Correspondence Field for Object Pose Estimation},
+  author={Huang, Lin and Hodan, Tomas and Ma, Lingni and Zhang, Linguang and Tran, Luan and Twigg, Christopher and Wu, Po-Chen and Yuan, Junsong and Keskin, Cem and Wang, Robert},
+  journal={European Conference on Computer Vision (ECCV)},
+  year={2022}
+}</pre></td>
+<script language="javascript" type="text/javascript" xml:space="preserve">
+hideblock('huang2022ncfAbs');
+hideblock('huang2022ncfBib');
+</script>
+</div>
+</div>
+<!--------------------------------------------------------------------------->
+
 <!--------------------------------------------------------------------------->
 <div class="paper" id="HUANG2021207">
 <img class="paper" src="./fig/survey/hand/hand-survey.png" height=100 />
