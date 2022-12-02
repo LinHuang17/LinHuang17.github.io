@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans+Narrow:400,700);
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans+Narrow:400,700); */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons);
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
@@ -7,7 +8,7 @@ dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, c1,
 thead, tr, th, td {
   border: 0pt none;
   /* font-family: Georgia, serif; */
-  font-family: 'PT Sans Narrow', sans-serif;
+  /* font-family: 'PT Sans Narrow', sans-serif; */
   font-size: 100%;
   font-style: inherit;
   font-weight: inherit;
@@ -68,19 +69,19 @@ a:hover
 /* created */
 c1 {
   /* font-family: Georgia, serif; */
-  font-family: 'PT Sans Narrow', sans-serif;
+  /* font-family: 'PT Sans Narrow', sans-serif; */
   font-weight: 500;
   font-size: 18px;
   /* font-weight:bold; */
 }
 
 h1 {
-  font-family: Georgia, serif;
+  /* font-family: Georgia, serif; */
 	font-size: 30pt;
 }
 
 h2 {
-  font-family: Georgia, serif;
+  /* font-family: Georgia, serif; */
   font-size: 17pt;
   /* font-weight: 700; */
   font-weight: 500;
@@ -152,13 +153,13 @@ span.blurb {
 }
 
 pre, code {
-  font-family: 'PT Sans Narrow', sans-serif;
+  /* font-family: 'PT Sans Narrow', sans-serif; */
 	font-size: 11px;
 	line-height: 14px;
 }
 
 div.papermeta pre {
-	font-family: 'PT Sans Narrow', sans-serif;
+	/* font-family: 'PT Sans Narrow', sans-serif; */
 	font-size: 11px;
 	line-height: 14px;
 }
