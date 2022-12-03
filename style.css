@@ -67,8 +67,8 @@ a:hover
 
 /* created */
 c1 {
-  font-family: Georgia, serif;
-  /* font-family: 'PT Sans Narrow', sans-serif; */
+  /* font-family: Georgia, serif; */
+  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 500;
   font-size: 18px;
   /* font-weight:bold; */
@@ -152,15 +152,15 @@ span.blurb {
 }
 
 pre, code {
-  font-family: Georgia, serif;
-  /* font-family: 'PT Sans Narrow', sans-serif; */
+  /* font-family: Georgia, serif; */
+  font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 11px;
 	line-height: 14px;
 }
 
 div.papermeta pre {
-  font-family: Georgia, serif;
-	/* font-family: 'PT Sans Narrow', sans-serif; */
+  /* font-family: Georgia, serif; */
+	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 11px;
 	line-height: 14px;
 }
