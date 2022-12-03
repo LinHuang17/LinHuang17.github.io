@@ -70,13 +70,14 @@ a:hover
 c1 {
   /* font-family: Georgia, serif; */
   font-family: 'PT Sans Narrow', sans-serif;
-  font-weight: 600;
+  font-weight: 550;
   font-size: 20px;
   /* font-weight:bold; */
 }
 
 h1 {
   font-family: Georgia, serif;
+  font-weight: 550;
 	font-size: 30pt;
 }
 
