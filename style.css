@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300+Condensed|PT+Sans+Narrow:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300|PT+Sans+Narrow:400,700);
 
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
@@ -11,7 +11,7 @@ thead, tr, th, td {
   /* font-family: 'PT Sans Narrow', sans-serif; */
   font-size: 100%;
   font-style: inherit;
-  /* font-weight: inherit; */
+  font-weight: inherit;
   margin: 0pt;
   outline-color: invert;
   outline-style: none;
@@ -70,7 +70,7 @@ a:hover
 c1 {
   /* font-family: Georgia, serif; */
   /* font-family: 'PT Sans Narrow', sans-serif; */
-  /* font-weight: 500; */
+  font-weight: 400;
   font-size: 18px;
   /* font-weight:bold; */
 }
@@ -84,7 +84,7 @@ h2 {
   /* font-family: Georgia, serif; */
   font-size: 17pt;
   /* font-weight: 700; */
-  /* font-weight: 500; */
+  font-weight: 400;
 }
 
 ul {
@@ -101,7 +101,7 @@ li {
 }
 
 strong, b {
-	/* font-weight:bold; */
+	font-weight:bold;
 }
 
 em, i {
