@@ -115,6 +115,10 @@ div.section {
   margin-left: 40px;
 }
 
+div.links {
+	font-size: 2px;
+}
+
 div.spanner {
   clear: both;
 }
