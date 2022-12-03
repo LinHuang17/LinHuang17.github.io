@@ -8,7 +8,7 @@ dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, c1,
 thead, tr, th, td {
   border: 0pt none;
   /* font-family: Georgia, serif; */
-  /* font-family: 'PT Sans Narrow', sans-serif; */
+  font-family: 'PT Sans Narrow', sans-serif;
   font-size: 100%;
   font-style: inherit;
   font-weight: inherit;
@@ -69,7 +69,7 @@ a:hover
 /* created */
 c1 {
   /* font-family: Georgia, serif; */
-  /* font-family: 'PT Sans Narrow', sans-serif; */
+  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: 100;
   font-size: 18px;
   /* font-weight:bold; */
@@ -153,13 +153,13 @@ span.blurb {
 }
 
 pre, code {
-  /* font-family: 'PT Sans Narrow', sans-serif; */
+  font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 11px;
 	line-height: 14px;
 }
 
 div.papermeta pre {
-	/* font-family: 'PT Sans Narrow', sans-serif; */
+	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 11px;
 	line-height: 14px;
 }
