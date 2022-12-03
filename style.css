@@ -68,17 +68,14 @@ a:hover
 	border-collapse: collapse;
 }
 c1 {
-  /* font-family: Georgia, serif; */
   font-family: 'PT Sans Narrow', sans-serif;
   /* font-weight:bold; */
-  font-weight: 530;
+  font-weight: 510;
   font-size: 19px;
 }
 
-
 h1 {
-  /* font-family: Georgia, serif; */
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: Georgia, serif;
   font-weight: 500;
 	font-size: 30pt;
 }
