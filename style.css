@@ -19,23 +19,14 @@ thead, tr, th, td {
   vertical-align: baseline;
 }
 
-#papertitle
-{
-	/* color: #1772d0; */
-	color: #000000;
-	padding: 0px;
-	margin: 0px;
-	border: 0px;
-	border-collapse: collapse;
-}
-
+/* default setup for the whole page */
 body {
   position: relative;
   margin: 3em auto 2em auto;
   /* width: 1024px; */
   width: 970px;
   font-size: 18px;
-	line-height:20px;
+  line-height:20px;
 }
 
 hr
@@ -62,18 +53,29 @@ text-decoration:none;
 
 a:hover
 {
-	color: #f09228;
-	text-decoration: none;
+  color: #f09228;
+  text-decoration: none;
 }
 
-/* created */
-c1 {
-  /* font-family: Georgia, serif; */
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-weight: 550;
-  font-size: 20px;
-  /* font-weight:bold; */
+/* paper title */
+#papertitle
+{
+	/* color: #1772d0; */
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	border-collapse: collapse;
 }
+
+c1 {
+  font-family: Georgia, serif;
+  /* font-family: 'PT Sans Narrow', sans-serif; */
+  /* font-weight:bold; */
+  font-weight: 520;
+  font-size: 19px;
+}
+
 
 h1 {
   /* font-family: Georgia, serif; */
