@@ -1,0 +1,8 @@
+@inproceedings{cai2020learning,
+  title={Learning progressive joint propagation for human motion prediction},
+  author={Cai, Yujun and Huang, Lin and Wang, Yiwei and others},
+  booktitle={European Conference on Computer Vision},
+  pages={226--242},
+  year={2020},
+  organization={Springer}
+}

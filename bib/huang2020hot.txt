@@ -1,0 +1,7 @@
+@inproceedings{huang2020hot,
+  title={HOT-Net: Non-Autoregressive Transformer for 3D Hand-Object Pose Estimation},
+  author={Huang, Lin and Tan, Jianchao and Meng, Jingjing and Liu, Ji and Yuan, Junsong},
+  booktitle={Proceedings of the 28th ACM International Conference on Multimedia},
+  pages={3136--3145},
+  year={2020}
+}

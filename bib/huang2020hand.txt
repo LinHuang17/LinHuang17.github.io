@@ -1,0 +1,8 @@
+@inproceedings{huang2020hand,
+  title={Hand-Transformer: Non-Autoregressive Structured Modeling for 3D Hand Pose Estimation},
+  author={Huang, Lin and Tan, Jianchao and Liu, Ji and Yuan, Junsong},
+  booktitle={European Conference on Computer Vision},
+  pages={17--33},
+  year={2020},
+  organization={Springer}
+}

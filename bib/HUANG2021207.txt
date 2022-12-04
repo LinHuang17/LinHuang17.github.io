@@ -1,0 +1,13 @@
+@article{HUANG2021207,
+  title = {Survey on depth and RGB image-based 3D hand shape and pose estimation},
+  journal = {Virtual Reality & Intelligent Hardware},
+  volume = {3},
+  number = {3},
+  pages = {207-234},
+  year = {2021},
+  issn = {2096-5796},
+  doi = {https://doi.org/10.1016/j.vrih.2021.05.002},
+  url = {https://www.sciencedirect.com/science/article/pii/S2096579621000280},
+  author = {Lin Huang and Boshen Zhang and Zhilin Guo and Yang Xiao and Zhiguo Cao and Junsong Yuan},
+  keywords = {Hand survey, 3D hand pose estimation, Hand shape reconstruction, Hand-object interactions, RGB-D cameras}
+}
